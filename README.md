@@ -11,16 +11,16 @@ it is an offline battle game consist of two players. One on one bettele with gre
 
 ### Actions
 ## First player:
-- d: Moving forword with graet speed
-- f: move forword with steady speed
+- d: Moves right 
+- a: move left 
 - w: jump
-- q: Attack
+- q and spacebar: Attact
 
 ## Second player:
 - Arrow right: move right
 - Arrow left: move left
 - Arrow up: Jump
-- Arrow down: Attack
+- Arrow down and ctrl: Attack
 
 
 
