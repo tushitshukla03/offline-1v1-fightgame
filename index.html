@@ -1,0 +1,37 @@
+
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="index.css">
+  <style>
+
+  *{
+    box-sizing: border-box;
+  }
+  </style>
+<style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style></head>
+
+<body>
+  <div style="position: relative; display: inline-block;">
+    <div style="position: absolute; display: flex; width:100%; align-items: center; padding: 20px;">
+      <!-- player health -->
+      <div style="position: relative;  height: 30px;width: 100%; display:flex;justify-content: flex-end">
+        <div class="healthbar"></div>
+        <div id="playerHealth" style="position:absolute; top: 0; bottom:0;right:-8px ; width: 100%;"></div></div>
+      <!-- timer -->
+      <div id="timer">50</div>
+      <!-- enemy health -->
+      <div style="position: relative; height: 30px; width: 100%">
+      <div class="healthbar"></div>
+      <div id="enemyHealth" style="position:absolute; top: 0; bottom:0;left:-4px;right:0;"></div></div>
+    </div>
+    <div style="position: absolute; color: white; align-items: center; justify-content: center; top: 0;bottom: 0;left: 0;right: 0; display: none;" id="displayText">Tie</div>
+  <canvas width="1024" height="576"></canvas>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="classes.js"></script>
+<script src="index.js"></script>
+
+
+  
+
+</body></html>
